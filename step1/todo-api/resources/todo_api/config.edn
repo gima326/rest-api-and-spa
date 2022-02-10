@@ -1,0 +1,30 @@
+{:duct.profile/base
+ {:duct.core/project-ns todo-api
+
+  ;; add
+  :duct.router/cascading
+  [#ig/ref :todo-api.handler/routing]
+
+  :todo-api.handler/routing
+  {}
+
+  :todo-api.middleware/wrap-cors
+  { :access-control-allow-origin [#todo-api/regex ".*"]
+    :access-control-allow-methods [:get :put :post :delete]}
+
+  :duct.handler/root
+  {:middleware [#ig/ref :todo-api.middleware/wrap-cors]}
+
+  }
+
+ :duct.profile/dev   #duct/include "dev"
+ :duct.profile/local #duct/include "local"
+ :duct.profile/prod  {}
+
+ :duct.module/logging {}
+
+ ;; add
+ :duct.module/web {}
+ :duct.module/sql
+ {:database-url "jdbc:mysql://localhost:3306/test?user=root&password=password"}
+}
