@@ -3,7 +3,7 @@
 ・サーバサイドWebフレームワーク「Duct」<br>
 ・Reactラッパー「Reagent」を基礎としたフレームワーク「re-frame」<br>
 
-これらの技術要素を用いて「REST API」と「SPA」という構成で「TODOアプリ」を作る、という有用なサンプルを、自分なりに咀嚼して、ちゃんとお腹に落とすべく、悪戦苦闘した記録です。<br>
+これらの技術要素を用いて「REST API」と「SPA」という構成で「TODOアプリ」を作る、という有用なサンプルがあったのですが、それを自分なりに咀嚼して、ちゃんとお腹に落とすべく、悪戦苦闘した記録です。<br>
 
 ルーティングには、Ataraxy ではなく Compojure をもちいてます。<br>
 
@@ -30,7 +30,7 @@ dev=> (go)
 
 ```sh
 
-;; terminal1 : app side
+;; terminal2 : app side
 
 $ pwd
 ~/todo-app
