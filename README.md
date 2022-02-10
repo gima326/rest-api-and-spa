@@ -7,6 +7,11 @@
 
 ルーティングには、Ataraxy ではなく Compojure をもちいてます。<br>
 
+### 概要
+
+・step1  ... APP 側から API 側の url にアクセスして、response から取得した JSON 形式のデータを APP 側で整形、表示する。<br>
+
+
 
 ## Developing
 
