@@ -9,7 +9,7 @@
 
 ### 概要
 
-・step1  ... API 側：ブラウザから入力された url に対応する値を JSON 形式に変換したうえで、response に格納する。 APP 側：API 側の url にアクセスして、取得した response から JSON 形式のデータを取得し、整形、表示する。<br>
+・step1  ... API 側：ブラウザから入力された url に対応する処理の結果を JSON 形式に変換したうえで、response に格納する。 APP 側：API 側の url にアクセスして、取得した response から JSON 形式のデータを取得し、整形、表示する。<br>
 
 
 
