@@ -1,0 +1,17 @@
+{
+  "name": "todo-app",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.16.12"
+  },
+  "dependencies": {
+    "@material-ui/core":  "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+
+    "highlight.js": "9.18.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-highlight.js": "1.0.7"
+  }
+}
