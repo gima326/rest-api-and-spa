@@ -13,7 +13,7 @@
 
 ・step2  ... API 側：DB にたいして CRUD を実行する。 APP 側：パラメータ（PK、更新値）を request に設定し、CRUD に対応する API 側の url にアクセスする。API 側から処理結果を取得し、画面の再描画をする。<br>
 
-・step3  ... API 側：「step2」と同じなので、割愛。APP 側：「step2」に UI フレームワークを導入した。<br>
+・step3  ... API 側：「step2」と同じなので、割愛。 APP 側：「step2」に UI フレームワークを導入した。<br>
 
 ## Developing
 
