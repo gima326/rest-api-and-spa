@@ -55,6 +55,7 @@ $ npx shadow-cljs watch app
 
 ## References
 
-- 「[ClojureのDuctとClojureScriptのre-frameによるREST API + SPA開発入門][1]」 [ `https://asukiaaa.blogspot.com/2017/12/clojureductcrud.html` ]<br>
+- 「[ClojureのDuctとClojureScriptのre-frameによるREST API + SPA開発入門][1]」<br>
+-  [ `https://asukiaaa.blogspot.com/2017/12/clojureductcrud.html` ]<br>
 
 [1]: https://qiita.com/lagenorhynque/items/38537fa91300e0ac0070
